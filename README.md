@@ -50,6 +50,8 @@ sudo apt-get update
 sudo apt-get install jenkins
 ```
 
+ps -ef | grep jenkins (to know if jenkins was installed and his path)
+
 **Note: ** By default, Jenkins will not be accessible to the external world due to the inbound traffic restriction by AWS. Open port 8080 in the inbound traffic rules as show below.
 
 - EC2 > Instances > Click on <Instance-ID>
